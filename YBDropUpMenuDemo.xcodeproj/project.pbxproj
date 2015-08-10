@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2535A9161A80CA360084E4D5 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2535A9151A80CA360084E4D5 /* JSONKit.m */; };
+		254ED8DC1A889C8B00FCEB4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254ED8DB1A889C8B00FCEB4D /* Default-568h@2x.png */; };
 		25571B361A7F69BF00716C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25571B351A7F69BF00716C9B /* main.m */; };
 		25571B391A7F69BF00716C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25571B381A7F69BF00716C9B /* AppDelegate.m */; };
-		25571B3C1A7F69BF00716C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25571B3B1A7F69BF00716C9B /* ViewController.m */; };
-		25571B3F1A7F69BF00716C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25571B3D1A7F69BF00716C9B /* Main.storyboard */; };
 		25571B411A7F69BF00716C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25571B401A7F69BF00716C9B /* Images.xcassets */; };
-		25571B441A7F69BF00716C9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25571B421A7F69BF00716C9B /* LaunchScreen.xib */; };
 		25571B501A7F69BF00716C9B /* YBDropUpMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25571B4F1A7F69BF00716C9B /* YBDropUpMenuDemoTests.m */; };
+		25571B621A7F7CBE00716C9B /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25571B611A7F7CBE00716C9B /* TestController.m */; };
+		255770801AAD6DDE005AD066 /* keyboard_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 255770741AAD6DDE005AD066 /* keyboard_up.png */; };
+		255770811AAD6DDE005AD066 /* keyboard_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 255770751AAD6DDE005AD066 /* keyboard_down.png */; };
+		255770821AAD6DDE005AD066 /* DropUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 255770771AAD6DDE005AD066 /* DropUpMenu.m */; };
+		255770831AAD6DDE005AD066 /* DropUpMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 255770791AAD6DDE005AD066 /* DropUpMenuItem.m */; };
+		255770841AAD6DDE005AD066 /* DropUpInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557707B1AAD6DDE005AD066 /* DropUpInput.m */; };
+		255770851AAD6DDE005AD066 /* DropUpMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557707D1AAD6DDE005AD066 /* DropUpMenuController.m */; };
+		255770861AAD6DDE005AD066 /* DropUpChangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2557707F1AAD6DDE005AD066 /* DropUpChangeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2535A9141A80CA360084E4D5 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2535A9151A80CA360084E4D5 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		254ED8DB1A889C8B00FCEB4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		25571B301A7F69BF00716C9B /* YBDropUpMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBDropUpMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25571B341A7F69BF00716C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25571B351A7F69BF00716C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25571B371A7F69BF00716C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25571B381A7F69BF00716C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25571B3A1A7F69BF00716C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25571B3B1A7F69BF00716C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		25571B3E1A7F69BF00716C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25571B401A7F69BF00716C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		25571B431A7F69BF00716C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		25571B491A7F69BF00716C9B /* YBDropUpMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBDropUpMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25571B4E1A7F69BF00716C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25571B4F1A7F69BF00716C9B /* YBDropUpMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBDropUpMenuDemoTests.m; sourceTree = "<group>"; };
+		25571B601A7F7CBE00716C9B /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		25571B611A7F7CBE00716C9B /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		255770741AAD6DDE005AD066 /* keyboard_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_up.png; sourceTree = "<group>"; };
+		255770751AAD6DDE005AD066 /* keyboard_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard_down.png; sourceTree = "<group>"; };
+		255770761AAD6DDE005AD066 /* DropUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUpMenu.h; sourceTree = "<group>"; };
+		255770771AAD6DDE005AD066 /* DropUpMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropUpMenu.m; sourceTree = "<group>"; };
+		255770781AAD6DDE005AD066 /* DropUpMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUpMenuItem.h; sourceTree = "<group>"; };
+		255770791AAD6DDE005AD066 /* DropUpMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropUpMenuItem.m; sourceTree = "<group>"; };
+		2557707A1AAD6DDE005AD066 /* DropUpInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUpInput.h; sourceTree = "<group>"; };
+		2557707B1AAD6DDE005AD066 /* DropUpInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropUpInput.m; sourceTree = "<group>"; };
+		2557707C1AAD6DDE005AD066 /* DropUpMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUpMenuController.h; sourceTree = "<group>"; };
+		2557707D1AAD6DDE005AD066 /* DropUpMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropUpMenuController.m; sourceTree = "<group>"; };
+		2557707E1AAD6DDE005AD066 /* DropUpChangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropUpChangeButton.h; sourceTree = "<group>"; };
+		2557707F1AAD6DDE005AD066 /* DropUpChangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropUpChangeButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +80,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2535A9131A80CA1C0084E4D5 /* thirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				2535A9141A80CA360084E4D5 /* JSONKit.h */,
+				2535A9151A80CA360084E4D5 /* JSONKit.m */,
+			);
+			name = thirdParty;
+			sourceTree = "<group>";
+		};
 		25571B271A7F69BF00716C9B = {
 			isa = PBXGroup;
 			children = (
+				254ED8DB1A889C8B00FCEB4D /* Default-568h@2x.png */,
+				2535A9131A80CA1C0084E4D5 /* thirdParty */,
 				25571B321A7F69BF00716C9B /* YBDropUpMenuDemo */,
-				25571B4C1A7F69BF00716C9B /* YBDropUpMenuDemoTests */,
 				25571B311A7F69BF00716C9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,13 +111,12 @@
 		25571B321A7F69BF00716C9B /* YBDropUpMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				25571B5F1A7F6AEB00716C9B /* DropUpMenu */,
 				25571B371A7F69BF00716C9B /* AppDelegate.h */,
 				25571B381A7F69BF00716C9B /* AppDelegate.m */,
-				25571B3A1A7F69BF00716C9B /* ViewController.h */,
-				25571B3B1A7F69BF00716C9B /* ViewController.m */,
-				25571B3D1A7F69BF00716C9B /* Main.storyboard */,
+				25571B601A7F7CBE00716C9B /* TestController.h */,
+				25571B611A7F7CBE00716C9B /* TestController.m */,
 				25571B401A7F69BF00716C9B /* Images.xcassets */,
-				25571B421A7F69BF00716C9B /* LaunchScreen.xib */,
 				25571B331A7F69BF00716C9B /* Supporting Files */,
 			);
 			path = YBDropUpMenuDemo;
@@ -96,6 +125,7 @@
 		25571B331A7F69BF00716C9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25571B4C1A7F69BF00716C9B /* YBDropUpMenuDemoTests */,
 				25571B341A7F69BF00716C9B /* Info.plist */,
 				25571B351A7F69BF00716C9B /* main.m */,
 			);
@@ -109,7 +139,7 @@
 				25571B4D1A7F69BF00716C9B /* Supporting Files */,
 			);
 			path = YBDropUpMenuDemoTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		25571B4D1A7F69BF00716C9B /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -117,6 +147,25 @@
 				25571B4E1A7F69BF00716C9B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25571B5F1A7F6AEB00716C9B /* DropUpMenu */ = {
+			isa = PBXGroup;
+			children = (
+				255770741AAD6DDE005AD066 /* keyboard_up.png */,
+				255770751AAD6DDE005AD066 /* keyboard_down.png */,
+				255770761AAD6DDE005AD066 /* DropUpMenu.h */,
+				255770771AAD6DDE005AD066 /* DropUpMenu.m */,
+				255770781AAD6DDE005AD066 /* DropUpMenuItem.h */,
+				255770791AAD6DDE005AD066 /* DropUpMenuItem.m */,
+				2557707A1AAD6DDE005AD066 /* DropUpInput.h */,
+				2557707B1AAD6DDE005AD066 /* DropUpInput.m */,
+				2557707C1AAD6DDE005AD066 /* DropUpMenuController.h */,
+				2557707D1AAD6DDE005AD066 /* DropUpMenuController.m */,
+				2557707E1AAD6DDE005AD066 /* DropUpChangeButton.h */,
+				2557707F1AAD6DDE005AD066 /* DropUpChangeButton.m */,
+			);
+			name = DropUpMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25571B3F1A7F69BF00716C9B /* Main.storyboard in Resources */,
-				25571B441A7F69BF00716C9B /* LaunchScreen.xib in Resources */,
+				255770811AAD6DDE005AD066 /* keyboard_down.png in Resources */,
 				25571B411A7F69BF00716C9B /* Images.xcassets in Resources */,
+				254ED8DC1A889C8B00FCEB4D /* Default-568h@2x.png in Resources */,
+				255770801AAD6DDE005AD066 /* keyboard_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +269,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25571B3C1A7F69BF00716C9B /* ViewController.m in Sources */,
 				25571B391A7F69BF00716C9B /* AppDelegate.m in Sources */,
 				25571B361A7F69BF00716C9B /* main.m in Sources */,
+				255770841AAD6DDE005AD066 /* DropUpInput.m in Sources */,
+				2535A9161A80CA360084E4D5 /* JSONKit.m in Sources */,
+				255770861AAD6DDE005AD066 /* DropUpChangeButton.m in Sources */,
+				255770851AAD6DDE005AD066 /* DropUpMenuController.m in Sources */,
+				255770821AAD6DDE005AD066 /* DropUpMenu.m in Sources */,
+				25571B621A7F7CBE00716C9B /* TestController.m in Sources */,
+				255770831AAD6DDE005AD066 /* DropUpMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,25 +299,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		25571B3D1A7F69BF00716C9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25571B3E1A7F69BF00716C9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25571B421A7F69BF00716C9B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25571B431A7F69BF00716C9B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		25571B511A7F69BF00716C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -270,7 +307,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -297,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -311,7 +348,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -332,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -412,6 +449,7 @@
 				25571B551A7F69BF00716C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25571B561A7F69BF00716C9B /* Build configuration list for PBXNativeTarget "YBDropUpMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +458,7 @@
 				25571B581A7F69BF00716C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
